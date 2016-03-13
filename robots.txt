@@ -103,3 +103,11 @@ Disallow: /*.bmp$
 Disallow: /*.xml$
 Disallow: /*.css$
 Disallow: /*.js$
+
+#######################################
+########### CLEAN URLS ############
+#######################################
+
+Disallow: /*.php$
+Disallow: /*?p=*&
+Disallow: /*?SID=
